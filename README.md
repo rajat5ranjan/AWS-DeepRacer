@@ -3,14 +3,15 @@
 # AWS-DeepRacer
 AWS Deepracer organised by ANZ Melbourne collaborated with Amazon to have a run for the go!!!
 
-In this repo i will go through all my tries, though i lasted in **10th Position among 30 participants**
+In this repo i will go through all my tries, though i lasted in **10th Position among 30 participants** on **3rd-Feb-2020**
 
 
 Though this wasn't exactly the competitions with the same parameters
 * We cant change the **Actions** parameters
 * We can't change the **Hyperparameters**
+* We had a limited temporary AWS account which expires the next day after the workshop.
 
-![title](deepracer/)
+![title](deepracer/track.png)
 
 The Track used was of **[Re-Invent2018](https://github.com/aws-samples/aws-deepracer-workshops/tree/master/Workshops/2018-reInvent/Lab1)**
 
@@ -432,6 +433,7 @@ def reward_function(params):
 ![title](deepracer/try_5_1.png)
 
 # Conclusion
-
-
-
+* **I went with the training time of 1 hour (Try 4) but it went downtracked for me, i should have submitted the models which at least ran 4hours - gave me best of 17.25 Seconds of round time**
+* **Don't go with the reward graph and focus if you are completing the track 100%**
+* **Don't clone the model, instead "Create a model" each time you need the clone a model.**
+* **The guy who won ran it for almost 8 hours won the competition**
